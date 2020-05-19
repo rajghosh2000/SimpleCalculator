@@ -40,7 +40,11 @@ class App extends Component{
 
   calc = (symbol) =>{
     let {current,previous,nextIsReset} = this.state;
-    
+    if(previous.length >0)
+    {
+      current = eval(String(previous[previous.length-1] + current));
+      this.setState({current,previous:[],nextIsReset:true});
+    }
   }
 
 
