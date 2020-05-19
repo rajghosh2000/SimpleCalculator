@@ -34,3 +34,10 @@ input.result {
     float: right;
 
 }
+.f-l{
+    position: absolute;
+    right: 50px;
+    z-index: 90;
+    top: 10px;
+    color: forestgreen;
+}
