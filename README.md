@@ -1,4 +1,4 @@
-This is a simple project made using React and Javascript
+This is a simple calculator made using React and Javascript
 
 In the project directory, you can run:
 
